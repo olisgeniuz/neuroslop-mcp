@@ -1,0 +1,11 @@
+{
+  "name": "neuroslop-mcp",
+  "version": "1.2.1",
+  "description": "MCP connector for Neuroslop text checking, local Unicode cleanup and optional API-key rewriting",
+  "private": true,
+  "type": "module",
+  "bin": {"neuroslop-mcp": "./neuroslop-mcp.mjs"},
+  "engines": {"node": ">=18"},
+  "scripts": {"test": "node verify.mjs"},
+  "license": "MIT"
+}
